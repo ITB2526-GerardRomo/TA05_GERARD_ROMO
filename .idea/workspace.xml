@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9821cd21-8ab6-4214-be7b-beea3c849d5b" name="Changes" comment="ACTU" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ITB2526-GerardRomo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ITB2526-GerardRomo/TA05_GERARD_ROMO.git&quot;,
+    &quot;accountId&quot;: &quot;2359b143-2a63-40e2-b7e7-12c9fb634cbc&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="36sW31LlO2PzD7Cmvwp2Dl57Ffg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/gerard.romo.7e9/PycharmProjects/TA05_GERARD_ROMO"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "HTML"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/INDEX" />
+      <recent name="$PROJECT_DIR$/HTML" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-7bb8055f9097-cbfc7b97e6b2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.28238.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9821cd21-8ab6-4214-be7b-beea3c849d5b" name="Changes" comment="" />
+      <created>1765795556837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765795556837</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ACTU">
+      <option name="closed" value="true" />
+      <created>1765969696700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765969696700</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ACTU">
+      <option name="closed" value="true" />
+      <created>1765969702589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765969702589</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ACTU">
+      <option name="closed" value="true" />
+      <created>1765969959116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765969959116</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ACTU">
+      <option name="closed" value="true" />
+      <created>1765970842337</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765970842337</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ACTU">
+      <option name="closed" value="true" />
+      <created>1765971048829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765971048829</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ACTU">
+      <option name="closed" value="true" />
+      <created>1765971131001</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765971131001</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ACTU">
+      <option name="closed" value="true" />
+      <created>1765971376078</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765971376078</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ACTU">
+      <option name="closed" value="true" />
+      <created>1765972060314</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765972060314</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ACTU">
+      <option name="closed" value="true" />
+      <created>1765972123598</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765972123598</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ACTU" />
+    <option name="LAST_COMMIT_MESSAGE" value="ACTU" />
+  </component>
+</project>
