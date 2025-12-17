@@ -1,0 +1,75 @@
+Creación de Portafolio Personal Estilo Cyberpunk en HTML/CSS
+
+ROL: Actúa como un desarrollador web experto en front-end con especialización en diseño de interfaces inmersivas y temáticas.
+
+OBJETIVO: Crear una página web de portafolio personal moderna y responsiva para exhibir proyectos de programación alojados en GitHub. La web debe tener una estética "Cyberpunk/Programación" (colores neón oscuros, efectos de glitch, tipografías digitales, aspecto futurista).
+
+REQUISITOS TÉCNICOS (MUY IMPORTANTE):
+
+Estructura de Archivos: Debes generar mínimo dos archivos: index.html para la estructura y style.css para todo el estilizado. El HTML debe enlazar correctamente al CSS.
+
+Responsividad: El diseño debe adaptarse perfectamente a dispositivos móviles y de escritorio (uso de Flexbox/Grid y Media Queries).
+
+CSS Moderno: Utiliza variables CSS para la paleta de colores cyberpunk, efectos de hover en botones y enlaces, y transiciones suaves.
+
+INSTRUCCIONES PASO A PASO PARA LA GENERACIÓN:
+
+1. Identidad y Cabecera (Header):
+
+Crea una barra de navegación (header) fija en la parte superior.
+
+Logo: Diseña un logotipo puramente en CSS para las iniciales "GR". Debe parecer un texto digital brillante o con un efecto de "circuito" neón, alineado a la izquierda.
+
+Incluye enlaces de navegación básicos (ej: Inicio, Proyectos, Contacto).
+
+2. Sección Principal: "Proyectos Destacados" (Hero Section):
+
+Debajo del header, crea una sección con el título "PROYECTOS DESTACADOS".
+
+Incorpora dos contenedores de imagen grandes lado a lado (usa imágenes de placeholder tipo https://via.placeholder.com/600x400 con un filtro CSS oscuro/neón).
+
+Ambas imágenes deben ser enlaces clicables que lleven mediante un ancla (#all-projects) a la siguiente sección de la página.
+
+Debajo de estas dos imágenes, añade un párrafo con una breve descripción introductoria sobre mis habilidades y el tipo de proyectos que hago.
+
+3. El Botón Cyberpunk (Call to Action):
+
+Debajo de la descripción anterior, crea un botón prominente que diga "VER TODOS LOS PROYECTOS".
+
+Estética del Botón: Este botón es crucial. Debe tener una estética cyberpunk agresiva: bordes de neón (cian, magenta o verde), fondo oscuro, tipografía estilo terminal/pixel, y un efecto "hover" intenso (ej: cambio de color brillante, pequeño efecto de desplazamiento o glitch). Este botón también debe llevar a la sección #all-projects.
+
+4. Sección "Todos los Proyectos" (Galería):
+
+Crea una sección con el ID all-projects.
+
+Muestra una cuadrícula (grid) responsiva de tarjetas de proyectos (mínimo 4 ejemplos).
+
+Cada tarjeta debe tener: una miniatura de imagen, un título de proyecto y una descripción muy breve.
+
+Interacción: Al hacer clic en la tarjeta (imagen o título), debe simular una navegación a una vista de detalle del proyecto (puedes usar una estructura de "página única" ocultando/mostrando secciones, o simplemente preparar la estructura HTML para una página de detalle separada).
+
+5. Plantilla de "Detalle de Proyecto" (Especificaciones):
+
+Diseña una sección oculta o una plantilla HTML separada para cuando se entra a un proyecto específico. Esta sección debe contener:
+
+Una imagen grande y destacada del proyecto.
+
+Una descripción detallada.
+
+Área de Código: Un bloque <pre><code> estilizado como una terminal oscura con colores neón para mostrar fragmentos de código del proyecto.
+
+Enlace a GitHub: Un botón o icono destacado con el logo de GitHub (puedes usar un icono de FontAwesome o SVG) que diga "Ver Repositorio" y enlace externamente.
+
+6. Pie de Página (Footer):
+
+Un footer sencillo con estilo oscuro, copyright y quizás enlaces a redes sociales con iconos estilo neón.
+
+RESUMEN DE ESTILO CSS (Para style.css):
+
+Fondo: Oscuro (casi negro o azul marino muy oscuro).
+
+Colores Acento: Cian eléctrico, Magenta neón, Verde terminal.
+
+Tipografía: Fuentes monoespaciadas para código y títulos, fuentes sans-serif limpias pero modernas para el cuerpo de texto.
+
+Asegúrate de que todos los enlaces parezcan botones interactivos con efectos hover claros.
