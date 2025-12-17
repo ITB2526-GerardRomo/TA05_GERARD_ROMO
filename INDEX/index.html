@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GR | Cyberpunk Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="cyber-header">
+        <div class="logo-container">
+            <div class="neon-logo" data-text="GR">GR</div>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-item">INICIO</a></li>
+                <li><a href="#all-projects" class="nav-item">PROYECTOS</a></li>
+                <li><a href="#contact" class="nav-item">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h1 class="section-title glitch-text">PROYECTOS DESTACADOS</h1>
+
+            <div class="hero-grid">
+                <a href="#all-projects" class="hero-img-link">
+                    <div class="img-wrapper">
+                        <img src="https://placehold.co/600x400/050505/00f3ff?text=System+Core" alt="Proyecto Destacado 1">
+                        <div class="overlay"></div>
+                    </div>
+                </a>
+                <a href="#all-projects" class="hero-img-link">
+                    <div class="img-wrapper">
+                        <img src="https://placehold.co/600x400/050505/ff00ff?text=Neural+Net" alt="Proyecto Destacado 2">
+                        <div class="overlay"></div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="hero-intro">
+                <p>
+                    <span class="prefix">>_</span> Desarrollador Front-End especializado en arquitecturas inmersivas y experiencias digitales de alto impacto.
+                    Transformo código en entornos visuales reactivos.
+                </p>
+            </div>
+
+            <div class="cta-container">
+                <a href="#all-projects" class="cyber-btn">
+                    <span class="btn-content">VER TODOS LOS PROYECTOS</span>
+                    <span class="btn-glitch"></span>
+                </a>
+            </div>
+        </section>
+
+        <section id="all-projects" class="projects-section">
+            <h2 class="section-title">BASE DE DATOS DE PROYECTOS</h2>
+
+            <div class="projects-grid">
+                <article class="project-card" onclick="openModal('modal-1')">
+                    <div class="card-image">
+                        <img src="https://placehold.co/400x250/111/00f3ff?text=E-Commerce" alt="Proyecto 1">
+                    </div>
+                    <div class="card-content">
+                        <h3>CYBER COMMERCE</h3>
+                        <p>Plataforma de ventas con React.</p>
+                    </div>
+                </article>
+
+                <article class="project-card" onclick="openModal('modal-1')">
+                    <div class="card-image">
+                        <img src="https://placehold.co/400x250/111/ff00ff?text=Dashboard" alt="Proyecto 2">
+                    </div>
+                    <div class="card-content">
+                        <h3>NEON DASHBOARD</h3>
+                        <p>Panel de administración de datos.</p>
+                    </div>
+                </article>
+
+                <article class="project-card" onclick="openModal('modal-1')">
+                    <div class="card-image">
+                        <img src="https://placehold.co/400x250/111/0aff00?text=API+Rest" alt="Proyecto 3">
+                    </div>
+                    <div class="card-content">
+                        <h3>NODE API</h3>
+                        <p>Backend seguro y escalable.</p>
+                    </div>
+                </article>
+
+                <article class="project-card" onclick="openModal('modal-1')">
+                    <div class="card-image">
+                        <img src="https://placehold.co/400x250/111/ffe600?text=Portfolio" alt="Proyecto 4">
+                    </div>
+                    <div class="card-content">
+                        <h3>V.R. INTERFACE</h3>
+                        <p>Experiencia web en 3D.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <p>&copy; 2024 GR SYSTEMS. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal-1" class="modal">
+        <div class="modal-content cyberpunk-border">
+            <span class="close-btn" onclick="closeModal('modal-1')">&times;</span>
+
+            <div class="modal-header">
+                <h2>// PROYECTO: NEON DASHBOARD</h2>
+            </div>
+
+            <div class="modal-body">
+                <img src="https://placehold.co/800x400/050505/ff00ff?text=Vista+Detallada" class="detail-img" alt="Detalle">
+
+                <p class="detail-desc">
+                    Este proyecto implementa una interfaz de visualización de datos en tiempo real. Utiliza WebSockets para la transmisión de datos y D3.js para los gráficos vectoriales. La estética está inspirada en las consolas de Blade Runner.
+                </p>
+
+                <div class="code-block">
+                    <div class="code-header">source_code.js</div>
+                    <pre><code>
+const initSystem = async () => {
+    await connectToMatrix();
+    console.log("System Online");
+    return renderInterface();
+};
+                    </code></pre>
+                </div>
+
+                <a href="https://github.com" target="_blank" class="github-btn">
+                    <i class="fab fa-github"></i> VER REPOSITORIO
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal(id) {
+            document.getElementById(id).style.display = 'flex';
+        }
+        function closeModal(id) {
+            document.getElementById(id).style.display = 'none';
+        }
+        // Cerrar si se hace clic fuera del contenido
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
