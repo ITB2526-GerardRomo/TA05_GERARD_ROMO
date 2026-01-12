@@ -115,3 +115,70 @@ document.addEventListener('DOMContentLoaded', () => {
     // Iniciar efecto
     setTimeout(typeWriter, 500);
 });
+document.addEventListener('DOMContentLoaded', () => {
+
+    /* --- 1. GESTIÓN DEL MODAL DINÁMICO --- */
+    const modal = document.getElementById('dynamic-modal');
+    const closeBtn = document.getElementById('close-modal');
+
+    // Seleccionamos TODOS los elementos que deben abrir modal (incluidos los del Hero)
+    const triggers = document.querySelectorAll('.project-trigger');
+
+    triggers.forEach(trigger => {
+        trigger.addEventListener('click', () => {
+            // Extraer info de los data-attributes
+            const title = trigger.getAttribute('data-title');
+            const desc = trigger.getAttribute('data-desc');
+            const img = trigger.getAttribute('data-img');
+            const tech = trigger.getAttribute('data-tech');
+
+            // Rellenar modal
+            document.getElementById('modal-title').innerText = "// PROYECTO: " + title;
+            document.getElementById('modal-desc').innerText = desc;
+            document.getElementById('modal-img').src = img;
+            document.getElementById('modal-tech').innerText = "> STACK: " + tech;
+
+            // Mostrar
+            modal.style.display = 'flex';
+        });
+    });
+
+    closeBtn.onclick = () => modal.style.display = 'none';
+    window.onclick = (e) => {
+        if (e.target === modal) modal.style.display = 'none';
+    }
+
+    /* --- 2. BUSCADOR EN TIEMPO REAL --- */
+    const searchInput = document.getElementById('projectSearch');
+    const gridCards = document.querySelectorAll('.projects-grid .project-card');
+
+    searchInput.addEventListener('input', (e) => {
+        const term = e.target.value.toLowerCase();
+
+        gridCards.forEach(card => {
+            const title = card.getAttribute('data-title').toLowerCase();
+            const tech = card.getAttribute('data-tech').toLowerCase();
+
+            // Mostrar si coincide título O tecnología
+            if(title.includes(term) || tech.includes(term)) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    });
+
+    /* --- 3. FUNCIONALIDAD MAILTO --- */
+    const form = document.getElementById('cyber-contact-form');
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const email = document.getElementById('contact-email').value;
+        const subject = document.getElementById('contact-subject').value;
+        const msg = document.getElementById('contact-msg').value;
+
+        // Crear enlace mailto
+        window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(msg)}`;
+    });
+});
