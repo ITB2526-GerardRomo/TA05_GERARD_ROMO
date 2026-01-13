@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9821cd21-8ab6-4214-be7b-beea3c849d5b" name="Changes" comment="ACTU">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -247,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768337377968</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="ACTU">
+      <option name="closed" value="true" />
+      <created>1768338386583</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1768338386583</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

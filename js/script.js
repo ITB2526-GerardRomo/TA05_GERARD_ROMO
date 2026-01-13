@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Simulamos un efecto de "Enviando..."
         const btn = contactForm.querySelector('button');
         const originalText = btn.innerText;
-        btn.innerText = "ENCRIPTANDO Y ENVIANDO...";
+        btn.innerText = "ENCRYPTING AND SENDING...";
         btn.style.borderColor = "var(--neon-green)";
         btn.style.color = "var(--neon-green)";
 
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = `mailto:${emailDestino}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
 
             // Resetear botón
-            btn.innerText = "DATOS ENVIADOS";
+            btn.innerText = "DATA SENT";
             setTimeout(() => {
                 btn.innerText = originalText;
                 btn.style.borderColor = "var(--neon-cyan)";
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // EXTRA: EFECTO MÁQUINA DE ESCRIBIR EN HERO
     const titleElement = document.getElementById('typing-title');
-    const textToType = "PROYECTOS DESTACADOS";
+    const textToType = "FEATURED PROJECTS";
     titleElement.innerText = "";
 
     let i = 0;
