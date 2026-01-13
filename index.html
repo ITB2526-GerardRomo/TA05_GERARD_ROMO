@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,21 +18,21 @@
     </div>
     <nav>
         <ul class="nav-links">
-            <li><a href="#" class="nav-item">HOME</a></li>
-            <li><a href="#all-projects" class="nav-item">DATABASE</a></li>
-            <li><a href="#contact" class="nav-item">SECURE LINK</a></li>
+            <li><a href="#" class="nav-item">INICIO</a></li>
+            <li><a href="#all-projects" class="nav-item">BASE DE DATOS</a></li>
+            <li><a href="#contact" class="nav-item">ENLACE SEGURO</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
 <section class="hero-section">
-    <h1 class="section-title glitch-text" id="typing-title">INITIALIZING SYSTEM...</h1>
+    <h1 class="section-title glitch-text" id="typing-title">INICIANDO SISTEMA...</h1>
 
     <div class="hero-grid">
         <div class="img-wrapper project-trigger"
              data-title="SYSTEM CORE"
-             data-desc="The core of the operating system. Manages neural memory allocation and quantum data processing."
+             data-desc="The core of the operating system. It manages neural memory allocation and quantum data processing."
              data-img="https://placehold.co/600x400/050505/00f3ff?text=System+Core"
              data-tech="C++ // Assembly // Neural Link">
             <img src="https://placehold.co/600x400/050505/00f3ff?text=System+Core" alt="System Core">
@@ -51,66 +51,169 @@
 
     <div class="hero-intro">
         <p>
-            <span class="prefix">>_</span> Architect of Digital Realities.
-            Accessing level 5 security protocols.
+            <span class="prefix">>_</span> Arquitecto de Realidades Digitales.
+            Accediendo a los protocolos de seguridad de nivel 5.
         </p>
     </div>
 </section>
 
+<div class="search-container">
+    <input type="text" id="projectSearch" class="cyber-input" placeholder="BUSCAR EN LA BASE DE DATOS...">
+    <i class="fas fa-search search-icon"></i>
+</div>
+
 <section id="all-projects" class="projects-section">
-<h2 class="section-title">PROJECT DATABASE</h2>
+<h2 class="section-title">BASE DE DATOS DE PROYECTOS</h2>
 
-<div class="projects-grid">
+<div class="projects-grid" id="grid-container">
 
-<article class="project-card project-trigger" data-title="CYBER COMMERCE" data-desc="Decentralized commerce platform." data-tech="React // Web3">
-    <div class="card-content"><h3>CYBER COMMERCE</h3><p>Sales platform.</p></div>
+<article class="project-card project-trigger" data-title="CYBER COMMERCE" data-desc="Decentralized commerce platform." data-img="https://placehold.co/400x250/111/00f3ff?text=E-Commerce" data-tech="React // Web3">
+    <div class="card-image"><img src="https://placehold.co/400x250/111/00f3ff?text=E-Commerce" alt="P1"></div>
+    <div class="card-content"><h3>CYBER COMMERCE</h3><p>Plataforma de ventas.</p></div>
 </article>
 
-<article class="project-card project-trigger" data-title="NEON DASHBOARD" data-desc="Real-time biometric data visualization." data-tech="D3.js // Socket.io">
-    <div class="card-content"><h3>NEON DASHBOARD</h3><p>Admin panel.</p></div>
+<article class="project-card project-trigger" data-title="NEON DASHBOARD" data-desc="Real-time biometric data visualization." data-img="https://placehold.co/400x250/111/ff00ff?text=Dashboard" data-tech="D3.js // Socket.io">
+    <div class="card-image"><img src="https://placehold.co/400x250/111/ff00ff?text=Dashboard" alt="P2"></div>
+    <div class="card-content"><h3>NEON DASHBOARD</h3><p>Admin Panel.</p></div>
 </article>
 
-<article class="project-card project-trigger" data-title="NODE API" data-desc="High-frequency encrypted backend." data-tech="Node // Express // JWT">
-    <div class="card-content"><h3>NODE API</h3><p>Secure backend.</p></div>
+<article class="project-card project-trigger" data-title="NODE API" data-desc="High-frequency encrypted backend." data-img="https://placehold.co/400x250/111/0aff00?text=API+Rest" data-tech="Node // Express // JWT">
+    <div class="card-image"><img src="https://placehold.co/400x250/111/0aff00?text=API+Rest" alt="P3"></div>
+    <div class="card-content"><h3>NODE API</h3><p>Backend Seguro.</p></div>
 </article>
 
-<article class="project-card project-trigger" data-title="V.R. INTERFACE" data-desc="Full immersion into a local metaverse." data-tech="Three.js // WebGL">
-    <div class="card-content"><h3>V.R. INTERFACE</h3><p>3D experience.</p></div>
+<article class="project-card project-trigger" data-title="V.R. INTERFACE" data-desc="Full immersion into a local metaverse." data-img="https://placehold.co/400x250/111/ffe600?text=VR+System" data-tech="Three.js // WebGL">
+    <div class="card-image"><img src="https://placehold.co/400x250/111/ffe600?text=VR+System" alt="P4"></div>
+    <div class="card-content"><h3>V.R. INTERFACE</h3><p>Experiencia 3D.</p></div>
 </article>
 
-<article class="project-card project-trigger" data-title="FIREWALL ZERO" data-desc="Perimeter defense protocol." data-tech="Rust // Wasm">
-    <div class="card-content"><h3>FIREWALL ZERO</h3><p>Cybersecurity.</p></div>
+<article class="project-card project-trigger" data-title="FIREWALL ZERO" data-desc="Perimeter defense protocol." data-img="https://placehold.co/400x250/000/f00?text=Firewall" data-tech="Rust // Wasm">
+    <div class="card-image"><img src="https://placehold.co/400x250/000/f00?text=Firewall" alt="P5"></div>
+    <div class="card-content"><h3>FIREWALL ZERO</h3><p>Ciberseguridad.</p></div>
 </article>
 
-<article class="project-card project-trigger" data-title="GHOST PROTOCOL" data-desc="Anonymous P2P encryption system." data-tech="Go // Crypto">
-    <div class="card-content"><h3>GHOST PROTOCOL</h3><p>Encryption.</p></div>
+<article class="project-card project-trigger" data-title="GHOST PROTOCOL" data-desc="Anonymous P2P encryption system." data-img="https://placehold.co/400x250/111/ccc?text=Ghost" data-tech="Go // Crypto">
+    <div class="card-image"><img src="https://placehold.co/400x250/111/ccc?text=Ghost" alt="P6"></div>
+    <div class="card-content"><h3>GHOST PROTOCOL</h3><p>Encriptación.</p></div>
 </article>
 
-<article class="project-card project-trigger" data-title="BIO LOCK" data-desc="Retina scan authentication system." data-tech="Python // OpenCV">
-    <div class="card-content"><h3>BIO LOCK</h3><p>Biometrics.</p></div>
+<article class="project-card project-trigger" data-title="BIO LOCK" data-desc="Retina scan authentication system." data-img="https://placehold.co/400x250/050/0f0?text=Bio" data-tech="Python // OpenCV">
+    <div class="card-image"><img src="https://placehold.co/400x250/050/0f0?text=Bio" alt="P7"></div>
+    <div class="card-content"><h3>BIO LOCK</h3><p>Biometría.</p></div>
 </article>
 
-<article class="project-card project-trigger" data-title="PACKET SNIFFER" data-desc="Real-time network traffic analysis." data-tech="C# // .NET">
-    <div class="card-content"><h3>PACKET SNIFFER</h3><p>Networking.</p></div>
+<article class="project-card project-trigger" data-title="PACKET SNIFFER" data-desc="Real-time network traffic analysis." data-img="https://placehold.co/400x250/000/00f?text=Sniffer" data-tech="C# // .NET">
+    <div class="card-image"><img src="https://placehold.co/400x250/000/00f?text=Sniffer" alt="P8"></div>
+    <div class="card-content"><h3>PACKET SNIFFER</h3><p>Redes.</p></div>
 </article>
 
-<article class="project-card project-trigger" data-title="A.I. COMPANION" data-desc="Chatbot with simulated consciousness." data-tech="OpenAI API // Node">
-    <div class="card-content"><h3>A.I. COMPANION</h3><p>Artificial Intelligence.</p></div>
+<article class="project-card project-trigger" data-title="A.I. COMPANION" data-desc="Chatbot with simulated consciousness." data-img="https://placehold.co/400x250/222/f0f?text=AI" data-tech="OpenAI API // Node">
+    <div class="card-image"><img src="https://placehold.co/400x250/222/f0f?text=AI" alt="P9"></div>
+    <div class="card-content"><h3>A.I. COMPANION</h3><p>Inteligencia Artificial.</p></div>
 </article>
 
-<article class="project-card project-trigger" data-title="DATA MINER X" data-desc="Massive data crawling engine." data-tech="Python // Scrapy">
+<article class="project-card project-trigger" data-title="DATA MINER X" data-desc="Massive data crawler." data-img="https://placehold.co/400x250/333/ff0?text=Miner" data-tech="Python // Scrapy">
+    <div class="card-image"><img src="https://placehold.co/400x250/333/ff0?text=Miner" alt="P10"></div>
     <div class="card-content"><h3>DATA MINER X</h3><p>Big Data.</p></div>
 </article>
 
-<article class="project-card project-trigger" data-title="PREDICTIVE OS" data-desc="Operating system that predicts user commands." data-tech="Linux // C">
-    <div class="card-content"><h3>PREDICTIVE OS</h3><p>Operating systems.</p></div>
+<article class="project-card project-trigger" data-title="PREDICTIVE OS" data-desc="Operating system that predicts user commands." data-img="https://placehold.co/400x250/111/0ff?text=OS" data-tech="Linux // C">
+    <div class="card-image"><img src="https://placehold.co/400x250/111/0ff?text=OS" alt="P11"></div>
+    <div class="card-content"><h3>PREDICTIVE OS</h3><p>Sistemas Op.</p></div>
 </article>
 
-<article class="project-card project-trigger" data-title="SYNTH VOICE" data-desc="Neural voice synthesizer." data-tech="TensorFlow">
-    <div class="card-content"><h3>SYNTH VOICE</h3><p>Audio processing.</p></div>
+<article class="project-card project-trigger" data-title="SYNTH VOICE" data-desc="Neural voice synthesizer." data-img="https://placehold.co/400x250/444/f00?text=Voice" data-tech="TensorFlow">
+    <div class="card-image"><img src="https://placehold.co/400x250/444/f00?text=Voice" alt="P12"></div>
+    <div class="card-content"><h3>SYNTH VOICE</h3><p>Audio Proc.</p></div>
 </article>
 
-<article class="project-card project-trigger" data-title="ZERO DAY" data-desc="Experimental exploit (demo)." data-tech="Assembly">
+<article class="project-card project-trigger" data-title="HOLO UI" data-desc="Holographic web interface." data-img="https://placehold.co/400x250/000/0ff?text=Holo" data-tech="CSS3 // WebGL">
+    <div class="card-image"><img src="https://placehold.co/400x250/000/0ff?text=Holo" alt="P13"></div>
+    <div class="card-content"><h3>HOLO UI</h3><p>Frontend.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="DARK MODE 2.0" data-desc="Dynamic theme system." data-img="https://placehold.co/400x250/111/aaa?text=Dark" data-tech="SASS // JS">
+    <div class="card-image"><img src="https://placehold.co/400x250/111/aaa?text=Dark" alt="P14"></div>
+    <div class="card-content"><h3>DARK MODE 2.0</h3><p>Estilos.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="GLITCH LIB" data-desc="JavaScript library for glitch effects." data-img="https://placehold.co/400x250/222/f0f?text=Glitch" data-tech="JavaScript">
+    <div class="card-image"><img src="https://placehold.co/400x250/222/f0f?text=Glitch" alt="P15"></div>
+    <div class="card-content"><h3>GLITCH LIB</h3><p>Open Source.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="NANO SCROLLER" data-desc="Optimized infinite scroll." data-img="https://placehold.co/400x250/333/0f0?text=Scroll" data-tech="React">
+    <div class="card-image"><img src="https://placehold.co/400x250/333/0f0?text=Scroll" alt="P16"></div>
+    <div class="card-content"><h3>NANO SCROLLER</h3><p>UI Component.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="CYBER RACER" data-desc="Retro-futuristic racing game." data-img="https://placehold.co/400x250/000/ff0?text=Game" data-tech="Unity // WebGL">
+    <div class="card-image"><img src="https://placehold.co/400x250/000/ff0?text=Game" alt="P17"></div>
+    <div class="card-content"><h3>CYBER RACER</h3><p>Gaming.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="NEON CHESS" data-desc="Multiplayer 4D chess." data-img="https://placehold.co/400x250/111/f0f?text=Chess" data-tech="Socket.io // JS">
+    <div class="card-image"><img src="https://placehold.co/400x250/111/f0f?text=Chess" alt="P18"></div>
+    <div class="card-content"><h3>NEON CHESS</h3><p>Multiplayer.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="MUSIC VIZ" data-desc="Reactive audio visualizer." data-img="https://placehold.co/400x250/222/0ff?text=Audio" data-tech="Web Audio API">
+    <div class="card-image"><img src="https://placehold.co/400x250/222/0ff?text=Audio" alt="P19"></div>
+    <div class="card-content"><h3>MUSIC VIZ</h3><p>Multimedia.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="STREAM DECK" data-desc="Streaming control deck." data-img="https://placehold.co/400x250/333/f00?text=Stream" data-tech="Electron">
+    <div class="card-image"><img src="https://placehold.co/400x250/333/f00?text=Stream" alt="P20"></div>
+    <div class="card-content"><h3>STREAM DECK</h3><p>Desktop App.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="DRONE OS" data-desc="Autonomous flight control system." data-img="https://placehold.co/400x250/000/0f0?text=Drone" data-tech="C++ // Arduino">
+    <div class="card-image"><img src="https://placehold.co/400x250/000/0f0?text=Drone" alt="P21"></div>
+    <div class="card-content"><h3>DRONE OS</h3><p>Robótica.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="SMART HOME" data-desc="Centralized cyberpunk home automation." data-img="https://placehold.co/400x250/111/ff0?text=Home" data-tech="IoT // MQTT">
+    <div class="card-image"><img src="https://placehold.co/400x250/111/ff0?text=Home" alt="P22"></div>
+    <div class="card-content"><h3>SMART HOME</h3><p>IoT.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="WEARABLE HUD" data-desc="Open-source smart glasses." data-img="https://placehold.co/400x250/222/0ff?text=HUD" data-tech="Embedded C">
+    <div class="card-image"><img src="https://placehold.co/400x250/222/0ff?text=HUD" alt="P23"></div>
+    <div class="card-content"><h3>WEARABLE HUD</h3><p>Hardware.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="LED MATRIX" data-desc="64x64 LED matrix controller." data-img="https://placehold.co/400x250/333/f0f?text=LED" data-tech="Raspberry Pi">
+    <div class="card-image"><img src="https://placehold.co/400x250/333/f0f?text=LED" alt="P24"></div>
+    <div class="card-content"><h3>LED MATRIX</h3><p>Electrónica.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="CRYPTO WALLET" data-desc="Digital cold crypto wallet." data-img="https://placehold.co/400x250/000/aaa?text=Wallet" data-tech="Solidity">
+    <div class="card-image"><img src="https://placehold.co/400x250/000/aaa?text=Wallet" alt="P25"></div>
+    <div class="card-content"><h3>CRYPTO WALLET</h3><p>Blockchain.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="QUANTUM SIM" data-desc="Basic qubit simulator." data-img="https://placehold.co/400x250/111/fff?text=Quantum" data-tech="Python // Qiskit">
+    <div class="card-image"><img src="https://placehold.co/400x250/111/fff?text=Quantum" alt="P26"></div>
+    <div class="card-content"><h3>QUANTUM SIM</h3><p>Ciencia.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="SATELLITE TRK" data-desc="Satellite tracking system." data-img="https://placehold.co/400x250/222/00f?text=Sat" data-tech="API NASA">
+    <div class="card-image"><img src="https://placehold.co/400x250/222/00f?text=Sat" alt="P27"></div>
+    <div class="card-content"><h3>SATELLITE TRK</h3><p>Espacio.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="VIRUS DB" data-desc="Historical malware wiki." data-img="https://placehold.co/400x250/333/0f0?text=Virus" data-tech="SQL // PHP">
+    <div class="card-image"><img src="https://placehold.co/400x250/333/0f0?text=Virus" alt="P28"></div>
+    <div class="card-content"><h3>VIRUS DB</h3><p>Wiki.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="AUTO PILOT" data-desc="Web automation script." data-img="https://placehold.co/400x250/000/f0f?text=Bot" data-tech="Selenium">
+    <div class="card-image"><img src="https://placehold.co/400x250/000/f0f?text=Bot" alt="P29"></div>
+    <div class="card-content"><h3>AUTO PILOT</h3><p>Scripts.</p></div>
+</article>
+
+<article class="project-card project-trigger" data-title="ZERO DAY" data-desc="Experimental exploit (demo)." data-img="https://placehold.co/400x250/111/f00?text=Zero" data-tech="Assembly">
+    <div class="card-image"><img src="https://placehold.co/400x250/111/f00?text=Zero" alt="P30"></div>
     <div class="card-content"><h3>ZERO DAY</h3><p>Hacking.</p></div>
 </article>
 
@@ -118,10 +221,6 @@
 </section>
 </main>
 
-<footer id="contact">
-    <h2 class="section-title">// START TRANSMISSION</h2>
-    <p>&copy; 2026 GR SYSTEMS. Secure Network.</p>
-</footer>
-
+<script src="js/script.js"></script>
 </body>
 </html>
