@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -18,89 +18,247 @@
         </div>
         <nav>
             <ul class="nav-links">
-                <li><a href="#" class="nav-item">HOME</a></li>
-                <li><a href="#all-projects" class="nav-item">DATABASE</a></li>
-                <li><a href="#contact" class="nav-item">SECURE LINK</a></li>
+                <li><a href="#" class="nav-item">INICIO</a></li>
+                <li><a href="#all-projects" class="nav-item">BASE DE DATOS</a></li>
+                <li><a href="#contact" class="nav-item">ENLACE SEGURO</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section class="hero-section">
-            <h1 class="section-title glitch-text" id="typing-title">INITIALIZING SYSTEM...</h1>
+            <h1 class="section-title glitch-text" id="typing-title">INICIANDO SISTEMA...</h1>
 
             <div class="hero-grid">
                 <div class="img-wrapper project-trigger"
                      data-title="SYSTEM CORE"
-                     data-desc="Central core of the OS. Manages neural memory allocation and quantum data processing."
-                     data-img="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+                     data-desc="El núcleo central del sistema operativo. Gestiona la asignación de memoria neuronal y el procesamiento de datos cuánticos."
+                     data-img="https://placehold.co/600x400/050505/00f3ff?text=System+Core"
                      data-tech="C++ // Assembly // Neural Link">
-                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="System Core">
+                    <img src="https://placehold.co/600x400/050505/00f3ff?text=System+Core" alt="System Core">
+                    <div class="overlay"></div>
                 </div>
 
                 <div class="img-wrapper project-trigger"
                      data-title="NEURAL NET"
-                     data-desc="Deep learning neural network capable of predicting behavior patterns in hostile environments."
-                     data-img="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=800&q=80"
+                     data-desc="Red neuronal de aprendizaje profundo capaz de predecir patrones de comportamiento en entornos de ciberseguridad hostiles."
+                     data-img="https://placehold.co/600x400/050505/ff00ff?text=Neural+Net"
                      data-tech="Python // TensorFlow // Dark Web API">
-                    <img src="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=800&q=80" alt="Neural Net">
+                    <img src="https://placehold.co/600x400/050505/ff00ff?text=Neural+Net" alt="Neural Net">
+                    <div class="overlay"></div>
                 </div>
             </div>
 
-            <button class="cybr-btn" onclick="document.getElementById('all-projects').scrollIntoView({behavior: 'smooth'})">
-                ACCESS_DATABASE<span aria-hidden>_</span>
-                <span aria-hidden class="cybr-btn__glitch">ACCESS_DATABASE_</span>
-                <span aria-hidden class="cybr-btn__tag">R25</span>
-            </button>
+            <div class="hero-intro">
+                <p>
+                    <span class="prefix">>_</span> Arquitecto de Realidades Digitales.
+                    Accediendo a los protocolos de seguridad de nivel 5.
+                </p>
+            </div>
         </section>
 
         <div class="search-container">
-            <input type="text" id="projectSearch" class="cyber-input" placeholder="SEARCH DATABASE PROTOCOLS...">
+            <input type="text" id="projectSearch" class="cyber-input" placeholder="BUSCAR EN LA BASE DE DATOS...">
+            <i class="fas fa-search search-icon"></i>
         </div>
 
         <section id="all-projects" class="projects-section">
+            <h2 class="section-title">BASE DE DATOS DE PROYECTOS</h2>
+
             <div class="projects-grid" id="grid-container">
-                <article class="project-card project-trigger" data-title="CYBER COMMERCE" data-desc="Decentralized marketplace for the neo-tokyo outskirts." data-img="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=400&q=80" data-tech="React // Web3">
-                    <div class="card-image"><img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=400&q=80"></div>
-                    <div class="card-content"><h3>CYBER COMMERCE</h3><p>Web3 Marketplace</p></div>
+                <article class="project-card project-trigger" data-title="CYBER COMMERCE" data-desc="Plataforma de comercio descentralizada." data-img="https://placehold.co/400x250/111/00f3ff?text=E-Commerce" data-tech="React // Web3">
+                    <div class="card-image"><img src="https://placehold.co/400x250/111/00f3ff?text=E-Commerce" alt="P1"></div>
+                    <div class="card-content"><h3>CYBER COMMERCE</h3><p>Plataforma de ventas.</p></div>
                 </article>
 
-                <article class="project-card project-trigger" data-title="FIREWALL ZERO" data-desc="Autonomous perimeter defense system." data-img="https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&w=400&q=80" data-tech="Rust // Wasm">
-                    <div class="card-image"><img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&w=400&q=80"></div>
-                    <div class="card-content"><h3>FIREWALL ZERO</h3><p>Security Protocol</p></div>
+                <article class="project-card project-trigger" data-title="NEON DASHBOARD" data-desc="Visualización de datos biométricos en tiempo real." data-img="https://placehold.co/400x250/111/ff00ff?text=Dashboard" data-tech="D3.js // Socket.io">
+                    <div class="card-image"><img src="https://placehold.co/400x250/111/ff00ff?text=Dashboard" alt="P2"></div>
+                    <div class="card-content"><h3>NEON DASHBOARD</h3><p>Admin Panel.</p></div>
                 </article>
 
-                </div>
+                <article class="project-card project-trigger" data-title="NODE API" data-desc="Backend encriptado de alta frecuencia." data-img="https://placehold.co/400x250/111/0aff00?text=API+Rest" data-tech="Node // Express // JWT">
+                    <div class="card-image"><img src="https://placehold.co/400x250/111/0aff00?text=API+Rest" alt="P3"></div>
+                    <div class="card-content"><h3>NODE API</h3><p>Backend Seguro.</p></div>
+                </article>
+
+                <article class="project-card project-trigger" data-title="V.R. INTERFACE" data-desc="Inmersión total en metaverso local." data-img="https://placehold.co/400x250/111/ffe600?text=VR+System" data-tech="Three.js // WebGL">
+                    <div class="card-image"><img src="https://placehold.co/400x250/111/ffe600?text=VR+System" alt="P4"></div>
+                    <div class="card-content"><h3>V.R. INTERFACE</h3><p>Experiencia 3D.</p></div>
+                </article>
+
+                <article class="project-card project-trigger" data-title="FIREWALL ZERO" data-desc="Protocolo de defensa perimetral." data-img="https://placehold.co/400x250/000/f00?text=Firewall" data-tech="Rust // Wasm">
+                    <div class="card-image"><img src="https://placehold.co/400x250/000/f00?text=Firewall" alt="P5"></div>
+                    <div class="card-content"><h3>FIREWALL ZERO</h3><p>Ciberseguridad.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="GHOST PROTOCOL" data-desc="Sistema de encriptación P2P anónimo." data-img="https://placehold.co/400x250/111/ccc?text=Ghost" data-tech="Go // Crypto">
+                    <div class="card-image"><img src="https://placehold.co/400x250/111/ccc?text=Ghost" alt="P6"></div>
+                    <div class="card-content"><h3>GHOST PROTOCOL</h3><p>Encriptación.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="BIO LOCK" data-desc="Autenticación por escaneo de retina." data-img="https://placehold.co/400x250/050/0f0?text=Bio" data-tech="Python // OpenCV">
+                    <div class="card-image"><img src="https://placehold.co/400x250/050/0f0?text=Bio" alt="P7"></div>
+                    <div class="card-content"><h3>BIO LOCK</h3><p>Biometría.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="PACKET SNIFFER" data-desc="Análisis de tráfico de red en tiempo real." data-img="https://placehold.co/400x250/000/00f?text=Sniffer" data-tech="C# // .NET">
+                    <div class="card-image"><img src="https://placehold.co/400x250/000/00f?text=Sniffer" alt="P8"></div>
+                    <div class="card-content"><h3>PACKET SNIFFER</h3><p>Redes.</p></div>
+                </article>
+
+                <article class="project-card project-trigger" data-title="A.I. COMPANION" data-desc="Chatbot con consciencia simulada." data-img="https://placehold.co/400x250/222/f0f?text=AI" data-tech="OpenAI API // Node">
+                    <div class="card-image"><img src="https://placehold.co/400x250/222/f0f?text=AI" alt="P9"></div>
+                    <div class="card-content"><h3>A.I. COMPANION</h3><p>Inteligencia Artificial.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="DATA MINER X" data-desc="Crawler de datos masivos." data-img="https://placehold.co/400x250/333/ff0?text=Miner" data-tech="Python // Scrapy">
+                    <div class="card-image"><img src="https://placehold.co/400x250/333/ff0?text=Miner" alt="P10"></div>
+                    <div class="card-content"><h3>DATA MINER X</h3><p>Big Data.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="PREDICTIVE OS" data-desc="SO que predice comandos del usuario." data-img="https://placehold.co/400x250/111/0ff?text=OS" data-tech="Linux // C">
+                    <div class="card-image"><img src="https://placehold.co/400x250/111/0ff?text=OS" alt="P11"></div>
+                    <div class="card-content"><h3>PREDICTIVE OS</h3><p>Sistemas Op.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="SYNTH VOICE" data-desc="Sintetizador de voz neural." data-img="https://placehold.co/400x250/444/f00?text=Voice" data-tech="TensorFlow">
+                    <div class="card-image"><img src="https://placehold.co/400x250/444/f00?text=Voice" alt="P12"></div>
+                    <div class="card-content"><h3>SYNTH VOICE</h3><p>Audio Proc.</p></div>
+                </article>
+
+                <article class="project-card project-trigger" data-title="HOLO UI" data-desc="Interfaz holográfica para web." data-img="https://placehold.co/400x250/000/0ff?text=Holo" data-tech="CSS3 // WebGL">
+                    <div class="card-image"><img src="https://placehold.co/400x250/000/0ff?text=Holo" alt="P13"></div>
+                    <div class="card-content"><h3>HOLO UI</h3><p>Frontend.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="DARK MODE 2.0" data-desc="Sistema de temas dinámico." data-img="https://placehold.co/400x250/111/aaa?text=Dark" data-tech="SASS // JS">
+                    <div class="card-image"><img src="https://placehold.co/400x250/111/aaa?text=Dark" alt="P14"></div>
+                    <div class="card-content"><h3>DARK MODE 2.0</h3><p>Estilos.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="GLITCH LIB" data-desc="Librería JS para efectos glitch." data-img="https://placehold.co/400x250/222/f0f?text=Glitch" data-tech="JavaScript">
+                    <div class="card-image"><img src="https://placehold.co/400x250/222/f0f?text=Glitch" alt="P15"></div>
+                    <div class="card-content"><h3>GLITCH LIB</h3><p>Open Source.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="NANO SCROLLER" data-desc="Scroll infinito optimizado." data-img="https://placehold.co/400x250/333/0f0?text=Scroll" data-tech="React">
+                    <div class="card-image"><img src="https://placehold.co/400x250/333/0f0?text=Scroll" alt="P16"></div>
+                    <div class="card-content"><h3>NANO SCROLLER</h3><p>UI Component.</p></div>
+                </article>
+
+                <article class="project-card project-trigger" data-title="CYBER RACER" data-desc="Juego de carreras retro-futurista." data-img="https://placehold.co/400x250/000/ff0?text=Game" data-tech="Unity // WebGL">
+                    <div class="card-image"><img src="https://placehold.co/400x250/000/ff0?text=Game" alt="P17"></div>
+                    <div class="card-content"><h3>CYBER RACER</h3><p>Gaming.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="NEON CHESS" data-desc="Ajedrez 4D multijugador." data-img="https://placehold.co/400x250/111/f0f?text=Chess" data-tech="Socket.io // JS">
+                    <div class="card-image"><img src="https://placehold.co/400x250/111/f0f?text=Chess" alt="P18"></div>
+                    <div class="card-content"><h3>NEON CHESS</h3><p>Multiplayer.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="MUSIC VIZ" data-desc="Visualizador de audio reactivo." data-img="https://placehold.co/400x250/222/0ff?text=Audio" data-tech="Web Audio API">
+                    <div class="card-image"><img src="https://placehold.co/400x250/222/0ff?text=Audio" alt="P19"></div>
+                    <div class="card-content"><h3>MUSIC VIZ</h3><p>Multimedia.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="STREAM DECK" data-desc="Controlador para streaming." data-img="https://placehold.co/400x250/333/f00?text=Stream" data-tech="Electron">
+                    <div class="card-image"><img src="https://placehold.co/400x250/333/f00?text=Stream" alt="P20"></div>
+                    <div class="card-content"><h3>STREAM DECK</h3><p>Desktop App.</p></div>
+                </article>
+
+                <article class="project-card project-trigger" data-title="DRONE OS" data-desc="Control de vuelo autónomo." data-img="https://placehold.co/400x250/000/0f0?text=Drone" data-tech="C++ // Arduino">
+                    <div class="card-image"><img src="https://placehold.co/400x250/000/0f0?text=Drone" alt="P21"></div>
+                    <div class="card-content"><h3>DRONE OS</h3><p>Robótica.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="SMART HOME" data-desc="Domótica cyberpunk centralizada." data-img="https://placehold.co/400x250/111/ff0?text=Home" data-tech="IoT // MQTT">
+                    <div class="card-image"><img src="https://placehold.co/400x250/111/ff0?text=Home" alt="P22"></div>
+                    <div class="card-content"><h3>SMART HOME</h3><p>IoT.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="WEARABLE HUD" data-desc="Gafas inteligentes open source." data-img="https://placehold.co/400x250/222/0ff?text=HUD" data-tech="Embedded C">
+                    <div class="card-image"><img src="https://placehold.co/400x250/222/0ff?text=HUD" alt="P23"></div>
+                    <div class="card-content"><h3>WEARABLE HUD</h3><p>Hardware.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="LED MATRIX" data-desc="Controlador de matriz LED 64x64." data-img="https://placehold.co/400x250/333/f0f?text=LED" data-tech="Raspberry Pi">
+                    <div class="card-image"><img src="https://placehold.co/400x250/333/f0f?text=LED" alt="P24"></div>
+                    <div class="card-content"><h3>LED MATRIX</h3><p>Electrónica.</p></div>
+                </article>
+
+                <article class="project-card project-trigger" data-title="CRYPTO WALLET" data-desc="Cartera fría digital." data-img="https://placehold.co/400x250/000/aaa?text=Wallet" data-tech="Solidity">
+                    <div class="card-image"><img src="https://placehold.co/400x250/000/aaa?text=Wallet" alt="P25"></div>
+                    <div class="card-content"><h3>CRYPTO WALLET</h3><p>Blockchain.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="QUANTUM SIM" data-desc="Simulador de qubits básico." data-img="https://placehold.co/400x250/111/fff?text=Quantum" data-tech="Python // Qiskit">
+                    <div class="card-image"><img src="https://placehold.co/400x250/111/fff?text=Quantum" alt="P26"></div>
+                    <div class="card-content"><h3>QUANTUM SIM</h3><p>Ciencia.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="SATELLITE TRK" data-desc="Rastreador de satélites." data-img="https://placehold.co/400x250/222/00f?text=Sat" data-tech="API NASA">
+                    <div class="card-image"><img src="https://placehold.co/400x250/222/00f?text=Sat" alt="P27"></div>
+                    <div class="card-content"><h3>SATELLITE TRK</h3><p>Espacio.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="VIRUS DB" data-desc="Wiki de malware históricos." data-img="https://placehold.co/400x250/333/0f0?text=Virus" data-tech="SQL // PHP">
+                    <div class="card-image"><img src="https://placehold.co/400x250/333/0f0?text=Virus" alt="P28"></div>
+                    <div class="card-content"><h3>VIRUS DB</h3><p>Wiki.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="AUTO PILOT" data-desc="Script de automatización web." data-img="https://placehold.co/400x250/000/f0f?text=Bot" data-tech="Selenium">
+                    <div class="card-image"><img src="https://placehold.co/400x250/000/f0f?text=Bot" alt="P29"></div>
+                    <div class="card-content"><h3>AUTO PILOT</h3><p>Scripts.</p></div>
+                </article>
+                <article class="project-card project-trigger" data-title="ZERO DAY" data-desc="Exploit experimental (Demo)." data-img="https://placehold.co/400x250/111/f00?text=Zero" data-tech="Assembly">
+                    <div class="card-image"><img src="https://placehold.co/400x250/111/f00?text=Zero" alt="P30"></div>
+                    <div class="card-content"><h3>ZERO DAY</h3><p>Hacking.</p></div>
+                </article>
+
+            </div>
         </section>
     </main>
 
     <footer id="contact">
-        <div class="contact-container">
-            <h2 class="section-title" style="font-size: 1.2rem;">// START TRANSMISSION</h2>
-            <form id="cyber-contact-form" class="cyber-form">
-                <input type="email" id="c-email" placeholder="YOUR_UPLINK_EMAIL" required class="cyber-input">
-                <input type="text" id="c-subject" placeholder="TRANSMISSION_SUBJECT" required class="cyber-input">
-                <textarea id="c-message" placeholder="ENCRYPTED_MESSAGE_BODY" rows="4" class="cyber-input"></textarea>
+        <h2 class="section-title" style="font-size: 1.5rem; margin-bottom: 2rem;">// INICIAR TRANSMISIÓN</h2>
 
-                <button type="submit" class="cybr-btn">
-                    SEND_DATA<span aria-hidden>_</span>
-                    <span aria-hidden class="cybr-btn__glitch">SEND_DATA_</span>
-                    <span aria-hidden class="cybr-btn__tag">V.7</span>
+        <div class="contact-container">
+            <form id="cyber-contact-form" class="cyber-form">
+                <div class="form-group">
+                    <label for="email">> CORREO DE DESTINO:</label>
+                    <input type="email" id="email" class="cyber-input" value="info@empresa.com" readonly style="opacity: 0.7; cursor: not-allowed;">
+                </div>
+                <div class="form-group">
+                    <label for="subject">> ASUNTO:</label>
+                    <input type="text" id="subject" class="cyber-input" placeholder="Ingrese protocolo del asunto..." required>
+                </div>
+                <div class="form-group">
+                    <label for="message">> MENSAJE ENCRIPTADO:</label>
+                    <textarea id="message" class="cyber-input" rows="5" placeholder="Escriba su mensaje aquí..." required></textarea>
+                </div>
+                <button type="submit" class="cyber-btn" style="width: 100%; margin-top: 1rem;">
+                    ENVIAR DATOS
                 </button>
             </form>
+        </div>
+
+        <div class="footer-content" style="margin-top: 3rem;">
+            <p>&copy; 2026 GR SYSTEMS. Red Segura.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
         </div>
     </footer>
 
     <div id="dynamic-modal" class="modal">
         <div class="modal-content cyberpunk-border">
             <span class="close-btn" id="close-modal-btn">&times;</span>
-            <h2 id="modal-title">// LOADING...</h2>
-            <img id="modal-img" src="" class="detail-img">
-            <p id="modal-desc" class="detail-desc"></p>
-            <div class="code-block"><pre><code id="modal-tech"></code></pre></div>
+
+            <div class="modal-header">
+                <h2 id="modal-title">// PROYECTO: CARGANDO...</h2>
+            </div>
+
+            <div class="modal-body">
+                <img id="modal-img" src="" class="detail-img" alt="Detalle">
+
+                <p id="modal-desc" class="detail-desc">
+                    Descripción del sistema no encontrada.
+                </p>
+
+                <div class="code-block">
+                    <div class="code-header">tech_stack.log</div>
+                    <pre><code id="modal-tech">LOADING STACK...</code></pre>
+                </div>
+
+                <a href="#" class="github-btn">
+                    <i class="fab fa-github"></i> ACCEDER AL CÓDIGO
+                </a>
+            </div>
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
